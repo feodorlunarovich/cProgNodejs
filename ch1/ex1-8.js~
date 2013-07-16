@@ -3,7 +3,7 @@ process.stdin.setEncoding('utf8');
 
 var util = require('util');
 
-var nl = 0;
+var b = var t = var nl = 0;
 
 process.stdin.on('data', function(text) {
     if (text == 'quit\n') {
