@@ -1,0 +1,2 @@
+stdin.setRawMode(true);
+stdin.resume(;)
